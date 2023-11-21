@@ -1,0 +1,13 @@
+<div class="container1">
+  <div class="sellersignup">
+    <p>Seller Login</p>
+    <form #sellerLogin="ngForm">
+      <input name="email"  type="email" placeholder="Email"  ngModel required>
+      <input name="password" type="password" placeholder="Password" ngModel required>
+      <div style="text-align:right"><a href="#"  > forgot password</a></div>
+      <input [disabled]="!sellerLogin.valid" type="submit" value="Login">
+    </form>
+    <div class="login"> <p>Don't have an account? </p><a routerLink="/user"> SignUp</a></div>
+  </div>
+</div>
+

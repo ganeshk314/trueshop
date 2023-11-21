@@ -1,0 +1,128 @@
+{
+  "seller": [
+    {
+      "name": "ganesh",
+      "email": "ganesh@gmail.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "ganeshk",
+      "email": "ganeshk@gmail.com",
+      "password": "abcd@123",
+      "id": 2
+    },
+    {
+      "firstname": "ram",
+      "lastname": "",
+      "email": "ram@gmail.com",
+      "password": "ram123",
+      "id": 3
+    },
+    {
+      "firstname": "raju",
+      "lastname": "",
+      "email": "raju@gmail.com",
+      "password": "raju123",
+      "id": 4
+    },
+    {
+      "firstname": "raju",
+      "lastname": "bhai",
+      "email": "raju@gmail.com",
+      "password": "raju123",
+      "id": 5
+    },
+    {
+      "firstname": "raju",
+      "lastname": "bhai",
+      "email": "raju@gmail.com",
+      "password": "raju123",
+      "id": 6
+    },
+    {
+      "firstname": "raju",
+      "lastname": "bhai",
+      "email": "raju@gmail.com",
+      "password": "raju123",
+      "id": 7
+    },
+    {
+      "firstname": "raju",
+      "lastname": "bhai",
+      "email": "raju@gmail.com",
+      "password": "raju123",
+      "id": 8
+    },
+    {
+      "firstname": "",
+      "lastname": "",
+      "email": "",
+      "password": "",
+      "id": 9
+    },
+    {
+      "firstname": "",
+      "lastname": "",
+      "email": "",
+      "password": "",
+      "id": 10
+    },
+    {
+      "firstname": "",
+      "lastname": "",
+      "email": "",
+      "password": "",
+      "id": 11
+    },
+    {
+      "firstname": "",
+      "lastname": "",
+      "email": "",
+      "password": "",
+      "id": 12
+    },
+    {
+      "firstname": "",
+      "lastname": "",
+      "email": "",
+      "password": "",
+      "id": 13
+    },
+    {
+      "firstname": "dfa",
+      "lastname": "",
+      "email": "sdfsfdfaf@fsadf",
+      "password": "gadfsdf",
+      "id": 14
+    },
+    {
+      "firstname": "dfa",
+      "lastname": "",
+      "email": "dd@gmail.com",
+      "password": "!dVGR5FcTCuB3AV",
+      "id": 15
+    },
+    {
+      "firstname": "dass",
+      "lastname": "",
+      "email": "dd@gmail.com",
+      "password": "!dVGR5FcTCuB3AV",
+      "id": 16
+    },
+    {
+      "firstname": "sadfsdf",
+      "lastname": "",
+      "email": "dd@gmail.com",
+      "password": "!dVGR5FcTCuB3AV",
+      "id": 17
+    },
+    {
+      "firstname": "sadf",
+      "lastname": "",
+      "email": "fgsgh",
+      "password": "dfgf",
+      "id": 18
+    }
+  ]
+}

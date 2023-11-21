@@ -1,0 +1,22 @@
+/* carousel */
+
+.carousel-item {
+  width: 100vw;
+  height: 50vh; /* Adjust the height value as needed */
+}
+.carousel-item img {
+  height:100%;
+  width:100vw;
+  object-fit: cover;
+}
+
+/* catagories */
+p.card-text{
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+
+}
+.card{
+  cursor: pointer;
+}

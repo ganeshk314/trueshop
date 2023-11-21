@@ -1,0 +1,74 @@
+<!-- banner -->
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active image">
+      <img src="assets/i5.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item image">
+      <img src="assets/i7.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item image">
+      <img src="assets/i6.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- catagories -->
+
+<div class="conatiner-fluid catagories my-4">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card">
+        <a routerLink="fassion">
+          <img class="card-img-top" src="assets/electronics.jpg" alt="Card image cap"></a>
+        <div class="card-body">
+          <p class="card-text">Electronics</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+        <a routerLink="fassion"><img class="card-img-top" src="assets/cloths.jpg" alt="Card image cap"></a>
+        <div class="card-body">
+          <p class="card-text">Fassion</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card" >
+        <a routerLink="fassion">
+          <img class="card-img-top" src="assets/eco.jpg" alt="Card image cap"></a>
+        <div class="card-body">
+          <p class="card-text">Eco Friendly</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+        <a routerLink="fassion">
+          <img class="card-img-top" src="assets/offers.jpg" alt="Card image cap"></a>
+        <div class="card-body">
+          <p class="card-text">Daily Deals</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- contact -->
+<div>
+  <app-contact></app-contact>
+</div>

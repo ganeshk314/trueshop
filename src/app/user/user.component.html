@@ -1,0 +1,15 @@
+<div class="container1">
+  <div class="sellersignup">
+    <p>SignUp</p>
+    <form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)" >
+      <div class="name">
+        <input class="firstname" name="firstname" type="text" placeholder="First Name" ngModel required>
+        <input class="lastname" name="lastname"type="text" placeholder="Last Name" ngModel >
+      </div>
+      <input name="email"  type="email" placeholder="Email"  ngModel required>
+      <input name="password" type="password" placeholder="Password" ngModel required>
+      <input [disabled]="!sellerSignUp.valid" type="submit" value="Sign Up">
+    </form>
+    <div class="login"> <p>Already have an account? </p><a routerLink="/user-login"> Login</a></div>
+  </div>
+</div>
